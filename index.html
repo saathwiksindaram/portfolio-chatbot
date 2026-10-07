@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saathwik Sindaram | AI/ML Student</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h2>Saathwik</h2>
+
+            <div>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div>
+                <p>AI/ML Student</p>
+                <h1>Hi, I'm Saathwik Sindaram</h1>
+                <h2>Aspiring Software Engineer</h2>
+
+                <p>
+                    B.Tech Artificial Intelligence and Machine Learning student
+                    with an interest in Artificial Intelligence, Machine Learning,
+                    software development, and problem solving.
+                </p>
+
+                <a href="#projects" class="button">View My Projects</a>
+                <a href="assets/resume.pdf" class="button" target="_blank">View Resume</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a B.Tech Artificial Intelligence and Machine Learning student
+                at VNR Vignana Jyothi Institute of Engineering and Technology.
+                I am interested in Artificial Intelligence, Machine Learning,
+                software development, and problem solving.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <div class="skills">
+                <span>Python</span>
+                <span>Java</span>
+                <span>C++</span>
+                <span>XGBoost</span>
+                <span>JavaScript</span>
+                <span>GitHub</span>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="projects">
+
+                <div class="project-card">
+                    <h3>Resume Skill Gap Analyzer</h3>
+                    <p>
+                        A web application for analysing resumes and identifying
+                        potential skill gaps using XGBoost-based analysis.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <h3>PrintAI</h3>
+                    <p>
+                        A smart printing platform designed to reduce waiting time
+                        and rush at stationery shops.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Water Turbidity Prediction</h3>
+                    <p>
+                        A machine learning system for predicting water turbidity
+                        using historical water-quality data.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <section id="profiles">
+    <h2>Coding & Professional Profiles</h2>
+
+    <div class="profiles">
+        <a href="https://github.com/saathwiksindaram" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/saathwik-sindaram-238862381/" target="_blank">LinkedIn</a>
+        <a href="https://www.codechef.com/users/saathwik_812" target="_blank">CodeChef</a>
+        <a href="https://leetcode.com/u/saathwik_812/" target="_blank">LeetCode</a>
+    </div>
+</section>
+
+        <section id="achievements">
+            <h2>Achievements</h2>
+
+            <ul>
+                <li>3rd place in an ML challenge and won ₹3,000</li>
+                <li>District-level Champion in Abacus</li>
+                <li>Winner in Inter-School Cricket Tournament</li>
+                <li>Participated in coding competitions and technical events</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <p>Email: saathwikreddysindarm@gmail.com</p>
+            <p>GitHub: saathwiksindaram</p>
+            <p>LinkedIn: saathwik-sindaram</p>
+        </section>
+
+    </main>
+    <div class="chatbot">
+
+    <button class="chatbot-button" onclick="toggleChat()">
+        💬
+    </button>
+
+    <div class="chat-window" id="chatWindow">
+
+        <div class="chat-header">
+            <div>
+                <strong>Ask About Me</strong>
+                <p>AI Portfolio Assistant</p>
+            </div>
+
+            <button onclick="toggleChat()">×</button>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="bot-message">
+                Hi! I'm Saathwik's portfolio assistant.
+                Ask me about his skills, projects, education,
+                achievements, or coding profiles.
+            </div>
+        </div>
+
+        <div class="chat-input">
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Ask me something..."
+                onkeydown="handleKey(event)"
+            >
+
+            <button onclick="sendMessage()">Send</button>
+        </div>
+
+    </div>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
